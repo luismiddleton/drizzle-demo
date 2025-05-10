@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "docker:run": "docker-compose up -d",
     "generate": "npx drizzle-kit generate",
     "migrate": "npx drizzle-kit migrate",
     "studio": "drizzle-kit studio",

@@ -1,7 +1,7 @@
 import { integer, pgTable, primaryKey, varchar } from "drizzle-orm/pg-core";
 import { timestamps } from "./column.helpers";
 
-export const languageTable = pgTable(
+export const translationTable = pgTable(
   "translations",
   {
     languageId: integer(),
